@@ -26,8 +26,8 @@ function App() {
 
     socket.on('song-info', (data) => {
       audioSRC.volume = 0.1
-      if (data.time) audioSRC.currentTime = data.time
       if (data.isPlaying) audioSRC.play()
+      if (data.time) audioSRC.currentTime = data.time
       setTimer = setInterval(() => {
         document.getElementById('myRange').value = audioSRC.currentTime * 100 / audioSRC.duration
       }, 500)
