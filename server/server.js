@@ -29,6 +29,7 @@ io.on("connection", (socket) => {
 
   socket.on('info-to-user', data => {
     let user = io.sockets.sockets.get(data.toUser)
+    if (!user) return;
     user.emit('song-info', { time: data.time, isPlaying: roomInfo.isPlaying })
   })
 
