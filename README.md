@@ -3,10 +3,12 @@
 A `demo` application where you can listen to music in **Real Time**.
 <br>
 <br>
-Someone entering the room for the **first time** asks the **Party Starter** what time the song is. That's why I put the Start Party button. In this way, the person who presses the **Start Party** button helps those who enter the room for the **first time**.
 
+**How is it working?**
 
-### My application where you can listen to real-time music: [Listo](https://gosmacx.netlify.app)
+- Someone entering the room for the **first time** asks the **Party Starter** what time the song is. That's why I put the Start Party button. In this way, the person who presses the **Start Party** button helps those who enter the room for the **first time**.
+
+**My application where you can listen to real-time music: [Listo](https://gosmacx.netlify.app)**
 
 ## Screenshots
 
