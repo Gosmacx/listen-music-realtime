@@ -7,6 +7,7 @@ function App({ changeTime }) {
         let audioSRC = document.getElementById('audio')
 
         socket.on('song-playing', (data) => {
+            // data => true/false            
             if (data) {
                 setPause(true)
                 document.getElementById('musicState').src = "pause.svg"
